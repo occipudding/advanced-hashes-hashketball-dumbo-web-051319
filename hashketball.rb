@@ -28,7 +28,7 @@ def game_hash
         },
         "Brook Lopez" => ,
         "Mason Plumlee" => ,
-        "" =>
+        "Jason Terry" =>
         
       }
     },
