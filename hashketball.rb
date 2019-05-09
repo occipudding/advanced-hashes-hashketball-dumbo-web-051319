@@ -176,12 +176,14 @@ def big_shoe_rebounds
   game_hash.keys.each do |loc|
     game_hash[loc][:players].each do |name, stats|
       if stats[:shoe] > biggest
+        binding.pry
         biggest = stats[:shoe]
       end
     end
   end
   game_hash.keys.each do |loc|
     
+  end
 end
 
 big_shoe_rebounds
