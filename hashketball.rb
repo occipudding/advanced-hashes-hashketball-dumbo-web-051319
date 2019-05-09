@@ -5,24 +5,24 @@ def game_hash
       :colors => ["Black", "White"],
       :players => {
         "Alan Anderson" => {
-          :number => ,
-          :shoe => ,
-          :points => ,
-          :rebounds => ,
-          :assists => ,
-          :steals => ,
-          :blocks => ,
-          :slam_dunks =>
+          :number => "0",
+          :shoe => "16",
+          :points => "22",
+          :rebounds => "12",
+          :assists => "12",
+          :steals => "3",
+          :blocks => "1",
+          :slam_dunks => "1"
         },
         "Reggie Evans" => {
-          :number => ,
-          :shoe => ,
-          :points => ,
-          :rebounds => ,
-          :assists => ,
-          :steals => ,
-          :blocks => ,
-          :slam_dunks =>
+          :number => "30",
+          :shoe => "14",
+          :points => "12",
+          :rebounds => "12",
+          :assists => "12",
+          :steals => "12",
+          :blocks => "12",
+          :slam_dunks => "7"
         }
       }
     },
@@ -40,7 +40,7 @@ def game_hash
           :blocks => ,
           :slam_dunks =>
         },
-        "Reggie Evans" => {
+        "Bismack Biyombo" => {
           :number => ,
           :shoe => ,
           :points => ,
