@@ -58,7 +58,11 @@ def game_hash
 end
 
 def num_points_scored(name)
-  
+  (1..2).each do |i|
+    if game_hash[game_hash.keys[i]][:players].include?(name)
+      return game_hash[game_hash.keys[i]][:players][name][:points].to_i
+    end
+  end
 end
 
 num_points_scored("Alan Anderson")
