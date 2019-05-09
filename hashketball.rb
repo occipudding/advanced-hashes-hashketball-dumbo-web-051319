@@ -145,7 +145,7 @@ end
 def team_names
   arr = []
   game_hash.keys.each do |loc|
-    game_hash[loc][:team_name] << arr
+    game_hash[loc][:team_name].to_str << arr
   end
   arr
 end
