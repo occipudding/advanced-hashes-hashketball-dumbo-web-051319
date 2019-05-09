@@ -59,6 +59,7 @@ end
 
 def num_points_scored(name)
   game_hash.keys.each do |loc|
+    
     binding.pry
   end
 end
