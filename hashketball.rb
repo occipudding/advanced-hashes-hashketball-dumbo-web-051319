@@ -141,3 +141,11 @@ def team_colors(team_name)
     end
   end
 end
+
+def team_names
+  arr = []
+  game_hash.keys.each do |loc|
+    game_hash[loc][:team_name] << arr
+  end
+  arr
+end
