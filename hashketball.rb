@@ -59,7 +59,9 @@ end
 
 def num_points_scored(name)
   game_hash.each do |location, team_data|
-    team_data[:players].include?(name)
+    if team_data[:players].include?(name)
+      
+    end
   end
 end
 
