@@ -155,9 +155,12 @@ def player_numbers(team_name)
   game_hash.keys.each do |loc|
     if game_hash[loc].include?(team_name)
       game_hash[loc][:players].each do |player|
+        binding.pry
         arr << game_hash[loc][player][:number]
       end
     end
   end
   arr
 end
+
+player_numbers("Brooklyn Nets")
