@@ -17,14 +17,14 @@ def game_hash
         :slam_dunks => 1
         },
         "Reggie Evans" => {
-          :number => "30",
-          :shoe => "14",
-          :points => "12",
-          :rebounds => "12",
-          :assists => "12",
-          :steals => "12",
-          :blocks => "12",
-          :slam_dunks => "7"
+          :number => 30,
+        :shoe => 14,
+        :points => 12,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 12,
+        :blocks => 12,
+        :slam_dunks => 7
         }
       }
     },
@@ -60,7 +60,7 @@ end
 def num_points_scored(name)
   0.step(1,1) do |i|
     if game_hash[game_hash.keys[i]][:players].include?(name)
-      return game_hash[game_hash.keys[i]][:players][name][:points].to_i
+      return game_hash[game_hash.keys[i]][:players][name][:points]
     end
   end
 end
