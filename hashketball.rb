@@ -60,7 +60,7 @@ end
 def num_points_scored(name)
   0.step(1,1) do |i|
     if game_hash[game_hash.keys[i]][:players].include?(name)
-      return game_hash[game_hash.keys[i]][:players][name][:points].to_i
+      return game_hash[game_hash.keys[i]][:players][name][:points]
     end
   end
 end
