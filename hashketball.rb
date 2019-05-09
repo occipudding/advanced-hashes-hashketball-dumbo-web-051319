@@ -26,7 +26,16 @@ def game_hash
         :blocks => 12,
         :slam_dunks => 7
         },
-        "Brook Lopez" => ,
+        "Brook Lopez" => {
+        :number => 11,
+        :shoe => 17,
+        :points => 17,
+        :rebounds => 19,
+        :assists => 10,
+        :steals => 3,
+        :blocks => 1,
+        :slam_dunks => 15
+      },
         "Mason Plumlee" => {
         :number => 1,
         :shoe => 19,
