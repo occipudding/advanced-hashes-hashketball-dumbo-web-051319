@@ -37,7 +37,16 @@ def game_hash
         :blocks => 8,
         :slam_dunks => 5
         },
-        "Jason Terry" =>
+        "Jason Terry" => {
+        :number => 31,
+        :shoe => 15,
+        :points => 19,
+        :rebounds => 2,
+        :assists => 2,
+        :steals => 4,
+        :blocks => 11,
+        :slam_dunks => 1
+      }
         
       }
     },
