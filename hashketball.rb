@@ -27,7 +27,7 @@ def game_hash
         :slam_dunks => 7
         },
         "Brook Lopez" => ,
-        "" => ,
+        "Mason Plumlee" => ,
         "" =>
         
       }
