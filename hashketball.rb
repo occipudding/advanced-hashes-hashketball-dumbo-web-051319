@@ -58,7 +58,6 @@ def game_hash
 end
 
 def num_points_scored(name)
-  pts = 0
   game_hash.each do |location, team_data|
     if team_data[:players].include?(name)
       pts = team_data[:players][name][:points]
