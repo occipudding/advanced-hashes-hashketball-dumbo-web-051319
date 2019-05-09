@@ -64,6 +64,7 @@ def game_hash
           :slam_dunks => 5
         },
         "Ben Gordon" => ,
+        "Brendan Haywood" =>
       }
     }
   }
