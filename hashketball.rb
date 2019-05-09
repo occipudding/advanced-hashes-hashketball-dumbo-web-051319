@@ -64,7 +64,7 @@ def num_points_scored(name)
       pts = team_data[:players][name][:points]
     end
   end
-  pts
+  pts.to_i
 end
 
 num_points_scored("Alan Anderson")
