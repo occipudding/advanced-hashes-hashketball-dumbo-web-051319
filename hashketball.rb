@@ -169,3 +169,14 @@ def player_stats(name)
     end
   end
 end
+
+def big_shoe_rebounds
+  biggest = 0
+  game_hash.keys.each do |loc|
+    game_hash[loc][:players].each do |name, stats|
+      binding.pry
+    end
+  end
+end
+
+big_shoe_rebounds
