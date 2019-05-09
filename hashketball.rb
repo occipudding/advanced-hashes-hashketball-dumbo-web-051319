@@ -59,7 +59,7 @@ end
 
 def num_points_scored(name)
   game_hash.keys.each do |loc|
-    
+    # game_hash[loc][:players].include?(name)
     binding.pry
   end
 end
