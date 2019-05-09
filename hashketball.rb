@@ -162,4 +162,3 @@ def player_numbers(team_name)
   arr
 end
 
-player_numbers("Brooklyn Nets")
