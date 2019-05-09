@@ -153,9 +153,9 @@ end
 def player_numbers(team_name)
   arr = []
   game_hash.keys.each do |loc|
+    binding.pry
     if game_hash[loc].include?(team_name)
       game_hash[loc][:players].each do |player|
-        binding.pry
         arr << game_hash[loc][player][:number]
       end
     end
