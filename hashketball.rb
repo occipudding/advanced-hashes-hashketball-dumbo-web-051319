@@ -162,3 +162,10 @@ def player_numbers(team_name)
   arr
 end
 
+def player_stats(name)
+  game_hash.keys.each do |loc|
+    if game_hash[loc][:players].include?(name)
+      return game_hash[loc][:players][name]
+    end
+  end
+end
