@@ -58,6 +58,7 @@ def game_hash
 end
 
 def num_points_scored(name)
+  val = 0
   game_hash.keys.each do |loc|
     if game_hash[loc][:players].include?(name)
       val = game_hash[loc][:players][name][:points]
